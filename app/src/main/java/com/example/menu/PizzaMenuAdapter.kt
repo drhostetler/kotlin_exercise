@@ -13,6 +13,8 @@ class PizzaMenuAdapter(private val menuItemList: ArrayList<PizzaMenuFragment.Men
 
     override fun onBindViewHolder(holder: MenuItemViewHolder, position: Int) {
         holder.binding.itemTitle.text = menuItemList[position].name
+        
+        /** The following Picasso call does not have any errors **/
         Picasso.get().load(menuItemList[position].imageUrl).fit().into(holder.binding.itemImage)
         if (menuItemList[position].ingredients.isNotEmpty()) {
             val ingredientBuffer = StringBuffer()
