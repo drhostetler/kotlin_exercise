@@ -26,7 +26,5 @@ See file: Bills_Pizza_Menu.mov
   recommended unless you have spare time.
 - Consider this a real world bug assigned to you on the job and try to solve this the way you'd at work.
 - It's ok to google if you really need to, though that will eat up valuable time in this 30 min exercise.
-- We are interested primarily with getting the app to be display as in the provided demo, however there is the following additional issue as a bonus.
-   When handling large amounts of data, there is a performance issue in the items taking a long time to display after json parsing has completed.
-
+- We are interested primarily with getting the app to be display as in the provided demo.
 # ALL THE BEST :)
